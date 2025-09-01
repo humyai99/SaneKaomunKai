@@ -1,0 +1,50 @@
+{
+  "name": "เสน่ห์ข้าวมันไก่ POS",
+  "short_name": "Sanae POS",
+  "description": "ระบบขายหน้าร้านสำหรับเสน่ห์ข้าวมันไก่",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#761F1C",
+  "theme_color": "#761F1C",
+  "orientation": "landscape-primary",
+  "categories": ["business", "productivity"],
+  "lang": "th",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "POS",
+      "short_name": "ขาย",
+      "description": "หน้าขาย POS",
+      "url": "/pos",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "KDS ครัว",
+      "short_name": "ครัว",
+      "description": "หน้าจอครัว",
+      "url": "/kds/kitchen",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "บิล",
+      "short_name": "บิล",
+      "description": "ดูบิลทั้งหมด",
+      "url": "/bills",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
